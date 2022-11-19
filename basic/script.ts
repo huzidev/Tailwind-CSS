@@ -1,5 +1,8 @@
 const sunIcon = document.querySelector(".sun");
 const moonIcon = document.querySelector(".moon");
+const hamMenu = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav");
+
 
 const userTheme = localStorage.getItem("theme");
 
@@ -27,6 +30,10 @@ function themeSwitch() {
         moonIcon!.classList.remove("hidden");
         localStorage.setItem('theme', 'dark');
     }
+}
+
+function navMeny() {
+
 }
 
 // const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
