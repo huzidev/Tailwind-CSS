@@ -3,6 +3,7 @@ const moonIcon = document.querySelector(".moon");
 const hamMenu = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav");
 
+navMenu?.classList.add("hidden");
 
 const userTheme = localStorage.getItem("theme");
 
