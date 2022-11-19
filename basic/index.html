@@ -10,25 +10,29 @@
 </head>
 <body class="dark:bg-slate-900">
     <div class="w-3/4 m-auto">
-        <nav class="bg-black text-white py-5 px-16 flex justify-between items-center md:flex-col darkMode">
-            <img src="./assets/linux.png" alt="Logo" class="h-12 rounded-full border-2 border-white">
-            <ul class="flex justify-end space-x-7 lg:flex md:flex-col md:space-x-0 md:items-center">
-                <li class="cursor-pointer md:py-1">Home</li>
-                <li class="cursor-pointer md:py-1">About</li>
-                <li class="cursor-pointer md:py-1">Contact</li>
-                <li class="cursor-pointer md:py-1">License</li>
-                <li class="cursor-pointer md:py-1">Author</li>
-                <li class="cursor-pointer md:py-1">
-                    Theme
-                    <span class="sun hidden">
-                        <i class="fa fa-sun-o"></i>
-                    </span>
-                    <span class="moon hidden">
-                        <i class="fa fa-moon-o"></i>
-                    </span>
-                </li>
-            </ul>
-            <i class="fa fa-bars"></i>
+        <nav class="bg-black text-white py-5 px-16 flex justify-between darkMode relative">
+            <div class="flex flex-col items-center lg:flex-row">
+                <img src="./assets/linux.png" alt="Logo" class="h-12 mb-1 rounded-full border-2 border-white md:w-38">
+                <ul class="flex flex-col items-center space-x-0 justify-end lg:flex-row lg:space-x-3 lg:right-0 md:flex-col md:space-x-0 md:items-center lg:absolute">
+                    <li class="cursor-pointer py-1">Home</li>
+                    <li class="cursor-pointer py-1">About</li>
+                    <li class="cursor-pointer py-1">Contact</li>
+                    <li class="cursor-pointer py-1">License</li>
+                    <li class="cursor-pointer py-1">Author</li>
+                    <li class="cursor-pointer spy-1">
+                        Theme
+                        <span class="sun hidden">
+                            <i class="fa fa-sun-o"></i>
+                        </span>
+                        <span class="moon hidden">
+                            <i class="fa fa-moon-o"></i>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="absolute top-2 right-12 lg:hidden xl:hidden">
+                <i class="fa fa-bars"></i>
+            </div>
         </nav>
         <main class="bg-gray-300 mt-5 px-10 py-5 darkMode">
             <div class="text-3xl text-center">
