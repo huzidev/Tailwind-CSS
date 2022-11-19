@@ -23,11 +23,13 @@ function themeSwitch() {
         moonIcon!.classList.add("hidden");
         sunIcon!.classList.remove("hidden");
         localStorage.setItem('theme', 'light');
+        window.alert("Light Mode Activated");
     } else {
         document.documentElement.classList.add("dark");
         sunIcon!.classList.add("hidden");
         moonIcon!.classList.remove("hidden");
         localStorage.setItem('theme', 'dark');
+        window.alert("Dark Mode Activated");
     }
 }
 
