@@ -32,9 +32,17 @@ function themeSwitch() {
     }
 }
 
-function navMeny() {
-
+function navigationMenu() {
+    if (navMenu?.classList.contains("hidden")) {
+        navMenu?.classList.remove("hidden");
+    } else {
+        navMenu?.classList.add("hidden");
+    }
 }
+
+hamMenu?.addEventListener("click", () => {
+    navigationMenu()
+})
 
 // const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
 sunIcon!.addEventListener("click", () => {
