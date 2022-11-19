@@ -10,15 +10,15 @@
 </head>
 <body class="dark:bg-slate-900">
     <div class="w-3/4 m-auto">
-        <nav class="bg-black text-white py-5 px-16 flex justify-between items-center darkMode">
+        <nav class="bg-black text-white py-5 px-16 flex justify-between items-center md:flex-col darkMode">
             <img src="./assets/linux.png" alt="Logo" class="h-12 rounded-full border-2 border-white">
-            <ul class="flex justify-end space-x-7 lg:flex">
-                <li class="cursor-pointer">Home</li>
-                <li class="cursor-pointer">About</li>
-                <li class="cursor-pointer">Contact</li>
-                <li class="cursor-pointer">License</li>
-                <li class="cursor-pointer">Author</li>
-                <li class="cursor-pointer">
+            <ul class="flex justify-end space-x-7 lg:flex md:flex-col md:space-x-0 md:items-center">
+                <li class="cursor-pointer md:py-1">Home</li>
+                <li class="cursor-pointer md:py-1">About</li>
+                <li class="cursor-pointer md:py-1">Contact</li>
+                <li class="cursor-pointer md:py-1">License</li>
+                <li class="cursor-pointer md:py-1">Author</li>
+                <li class="cursor-pointer md:py-1">
                     Theme
                     <span class="sun hidden">
                         <i class="fa fa-sun-o"></i>
@@ -26,9 +26,9 @@
                     <span class="moon hidden">
                         <i class="fa fa-moon-o"></i>
                     </span>
-                    <!-- <i class="fa fa-bars"></i> -->
                 </li>
             </ul>
+            <i class="fa fa-bars"></i>
         </nav>
         <main class="bg-gray-300 mt-5 px-10 py-5 darkMode">
             <div class="text-3xl text-center">
