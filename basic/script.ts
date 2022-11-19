@@ -30,8 +30,6 @@ function themeSwitch() {
 }
 
 // const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-
 sunIcon!.addEventListener("click", () => {
     themeSwitch();
 });
