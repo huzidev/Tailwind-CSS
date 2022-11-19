@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/59485d1319.js" crossorigin="anonymous"></script>
+    <title>Tailwind CSS</title>
+</head>
+<body class="dark:bg-slate-900">
+    <div class="w-3/4 m-auto">
+        <nav class="bg-black text-white py-5 px-16 flex justify-between items-center darkMode">
+            <img src="./assets/linux.png" alt="Logo" class="h-12 rounded-full border-2 border-white">
+            <ul class="flex justify-end space-x-7 lg:flex">
+                <li class="cursor-pointer">Home</li>
+                <li class="cursor-pointer">About</li>
+                <li class="cursor-pointer">Contact</li>
+                <li class="cursor-pointer">License</li>
+                <li class="cursor-pointer">Author</li>
+                <li class="cursor-pointer">
+                    Theme
+                    <span class="sun hidden">
+                        <i class="fa fa-sun-o"></i>
+                    </span>
+                    <span class="moon hidden">
+                        <i class="fa fa-moon-o"></i>
+                    </span>
+                    <!-- <i class="fa fa-bars"></i> -->
+                </li>
+            </ul>
+        </nav>
+        <main class="bg-gray-300 mt-5 px-10 py-5 darkMode">
+            <div class="text-3xl text-center">
+                Tailwind CSS
+            </div>
+            <div class="xl:w-[80%] py-3 m-auto text-center">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique maxime sit nesciunt ipsam molestiae unde modi, sequi placeat atque. Autem veritatis numquam eaque possimus vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, molestias! Vel mollitia itaque, illo tenetur dolores temporibus nesciunt velit officia.
+            </div>
+            <div class="text-3xl text-center my-5 underline">
+                About Tailwind CSS
+            </div>
+            <div class="flex flex-col items-center my-5 lg:flex-row">
+                <img src="./assets/linux.png" alt="Img" class="img">
+                <div class="flex flex-col items-center md:flex-col md:px-5">
+                    <div class="text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, magnam consectetur? Molestiae repellat aperiam nobis tempora facilis atque rem, tenetur dolor voluptatibus perspiciatis voluptas qui, delectus architecto pariatur corporis animi maiores odit? Labore reprehenderit deserunt ipsa nesciunt consequuntur sit voluptatibus perferendis laboriosam sapiente obcaecati repellat numquam, facilis placeat sed error Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum enim error, consectetur nihil nam doloribus similique hic tempore animi accusamus? Aut voluptas asperiores necessitatibus praesentium!
+                    </div>
+                    <button class="btn">
+                        <a href="https://www.google.com/" target="_blank" title="Go To Google">
+                            Learn More
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="flex flex-col items-center my-5 lg:flex-row-reverse">
+                <img src="./assets/linux.png" alt="Img" class="img">
+                <div class="flex flex-col items-center md:flex-col md:px-5">
+                    <div class="text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, magnam consectetur? Molestiae repellat aperiam nobis tempora facilis atque rem, tenetur dolor voluptatibus perspiciatis voluptas qui, delectus architecto pariatur corporis animi maiores odit? Labore reprehenderit deserunt ipsa nesciunt consequuntur sit voluptatibus perferendis laboriosam sapiente obcaecati repellat numquam, facilis placeat sed error Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum enim error, consectetur nihil nam doloribus similique hic tempore animi accusamus? Aut voluptas asperiores necessitatibus praesentium!
+                    </div>
+                    <button class="btn">
+                        <a href="https://www.google.com/" target="_blank" title="Go To Google">
+                            Learn More
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="./assets/linux.png" alt="Img" class="img">
+                <div class="text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, magnam consectetur? Molestiae repellat aperiam nobis tempora facilis atque rem, tenetur dolor voluptatibus perspiciatis voluptas qui, delectus architecto pariatur corporis animi maiores odit? Labore reprehenderit deserunt ipsa nesciunt consequuntur sit voluptatibus perferendis laboriosam sapiente obcaecati repellat numquam, facilis placeat sed error Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum enim error, consectetur nihil nam doloribus similique hic tempore animi accusamus? Aut voluptas asperiores necessitatibus praesentium!
+                </div>
+                <button class="btn">
+                    <a href="https://www.google.com/" target="_blank" title="Go To Google">
+                        Learn More
+                    </a>
+                </button>
+            </div>
+        </main>
+        <div class="bg-gray-500 py-5 my-5 darkMode">
+            <div class="text-3xl text-center mb-5 underline">
+                Contact Form
+            </div>
+            <form class="flex flex-col items-center space-y-2 px-5">
+                <input type="text" placeholder="Yours name" class="w-72 pl-2">
+                <input type="email" placeholder="Yours Email" class="w-72 pl-2">
+                <input type="email" placeholder="Yours Number" class="w-72 pl-2">
+                <textarea placeholder="Yours message" class="w-72 pl-2"></textarea>
+                <button class="bg-black text-white px-3 py-1">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <script src="./script.ts"></script>
+</body>
+</html>
