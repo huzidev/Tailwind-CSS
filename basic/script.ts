@@ -31,7 +31,7 @@ function themeSwitch() {
         localStorage.setItem('theme', 'dark');
         window.alert("Dark Mode Activated");
     }
-}
+};
 
 function navigationMenu() {
     if (navMenu?.classList.contains("hidden")) {
@@ -39,11 +39,11 @@ function navigationMenu() {
     } else {
         navMenu?.classList.add("hidden");
     }
-}
+};
 
 hamMenu?.addEventListener("click", () => {
     navigationMenu()
-})
+});
 
 // const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
 sunIcon!.addEventListener("click", () => {
